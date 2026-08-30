@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Refolith local state
+.refolith/
+
+# Additional environment files/secrets
+.env.*
+!.env.example
+
+# Editor/OS
+*.swp
+*~
+.DS_Store
+Thumbs.db
