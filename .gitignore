@@ -219,6 +219,10 @@ __marimo__/
 
 # Refolith local state
 .refolith/
+/refolith.sqlite3
+/refolith.sqlite3-journal
+/refolith.sqlite3-wal
+/refolith.sqlite3-shm
 
 # Additional environment files/secrets
 .env.*
@@ -226,6 +230,8 @@ __marimo__/
 
 # Editor/OS
 *.swp
+*.swo
 *~
 .DS_Store
 Thumbs.db
+Desktop.ini
