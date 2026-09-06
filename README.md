@@ -124,11 +124,6 @@ open; v0.1 does not include schema migrations. Source text is not stored.
 - Everything is local: no downloads, network services, telemetry, or MCP server.
   MCP support is a possible future milestone, not implemented functionality.
 
-## Tests
-
-After installing the `dev` extra in the virtual environment:
-
-```sh
 pytest
 ```
 
