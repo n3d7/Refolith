@@ -123,11 +123,3 @@ open; v0.1 does not include schema migrations. Source text is not stored.
   directory operations are unavailable. Linux is tested; macOS is not yet tested.
 - Everything is local: no downloads, network services, telemetry, or MCP server.
   MCP support is a possible future milestone, not implemented functionality.
-
-pytest
-```
-
-Tests use temporary repositories and SQLite databases. Any test commits use an
-identity configured only in the temporary repository. The suite covers parsing,
-scanner boundaries, persistence/rollback, end-to-end indexing, reindexing,
-queries, and CLI success/error behavior.
