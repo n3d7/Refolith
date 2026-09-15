@@ -1,3 +1,5 @@
+# Work in progress
+
 # Refolith
 
 Refolith v0.1 is a small CLI that indexes **local Python Git repositories** and
